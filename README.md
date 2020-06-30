@@ -14,4 +14,9 @@
 ## Project three: Simon game challenge
  Simulation of the famous game [simon](https://www.youtube.com/watch?v=1Yqj76Q4jJ4) as a web application
   - **Objective** : practicing on JQuery.
-  - **Starter code** with html and css file from [appbrewery].
+  - **Starter code** with html and css files from [appbrewery].
+
+## Project four : TodoList Challenge
+  implement a web application for a simple todo list
+  - **Objective** : practicing on (Express.js , templating usig EJS)
+  - **Starter code** with css file from [appbrewery](https://drive.google.com/uc?export=download&id=1y5dsPlZSKAG8Xc-YZQO-biFbo96_9g3G)
