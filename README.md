@@ -17,6 +17,11 @@
   - **Starter code** with html and css files from [appbrewery].
 
 ## Project four : TodoList Challenge
-  implement a web application for a simple todo list
+  Implement a web application for a simple todo list
   - **Objective** : practicing on (Express.js , templating usig EJS)
   - **Starter code** with css file from [appbrewery](https://drive.google.com/uc?export=download&id=1y5dsPlZSKAG8Xc-YZQO-biFbo96_9g3G)
+  
+## Project five : Blog Website Challenge
+  Build a web application for personal blog
+  - **Objective** : practicing on(EJS , Layouts)
+  - **Starter code** with html and css files from [appbrewery](https://drive.google.com/uc?export=download&id=1DIvzgqNmtkYQD1dGHOBhPJKnmfAmG-Dc)
