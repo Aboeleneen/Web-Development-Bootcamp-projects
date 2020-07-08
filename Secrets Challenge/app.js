@@ -35,7 +35,11 @@ const url = "mongodb://localhost:27017/secretDB" ;
 mongoose.connect(url);
 mongoose.set('useCreateIndex' , true);
 
-const userSchema = new mongoose.	Schema({
+const secretSchema = new mongoose.Schema({
+	content : String
+});
+
+const userSchema = new mongoose.Schema({
 	email : String ,
 	password : String ,
 	googleId : String
@@ -46,7 +50,9 @@ const userSchema = new mongoose.	Schema({
 userSchema.plugin(passportLocalMongoose);
 userSchema.plugin(findOrCreate);
 
+const Secret = new mongoose.model("Secret" , secretSchema);
 const User = new mongoose.model('User' , userSchema);
+
 passport.use(User.createStrategy());
 passport.serializeUser(function(user, done) {
   done(null, user.id);
@@ -126,9 +132,26 @@ app.get("/submit" , function(req,res){
 	res.render('submit');
 });
 
+app.post("/submit" , function(req,res){
+	const secret = new Secret({
+		content : req.body.secret
+	});
+	secret.save(function(err){
+		if(err){
+			console.log(err);
+		}else{
+			Secret.find({} , function(err,result){
+					res.render('secrets' , {secrets :result });
+			});
+
+		}
+	})
+});
 app.get("/secrets" , function(req,res){
 		if(req.isAuthenticated()){
-			res.render('secrets');
+			Secret.find({} , function(err,result){
+					res.render('secrets' , {secrets :result });
+			});
 		}else{
 			res.redirect("/login");
 		}
