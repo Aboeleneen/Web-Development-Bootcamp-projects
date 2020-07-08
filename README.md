@@ -29,3 +29,13 @@
 ## Project six : Wiki-Api 
   Build a simple Restful API from scratch
   - **Objective** : practicing on(MongoDB , Restful API)
+  
+## Project Seven : Secrets Challenge
+  Web appplication to keep your secrets and  share them anonymously!
+  - **Objective** : practicing on (Authentication and security) 
+    - database encryption
+    - salting and hashing passwords
+    - using environment variables 
+    - cookies and sessions
+    - third party oauth (google apis)
+  - **Starter code** with html and css files from [appbrewery](https://drive.google.com/uc?export=download&id=1U6tcos_A2rCGuMLdR0RZsDo_KI2_pf_t)
