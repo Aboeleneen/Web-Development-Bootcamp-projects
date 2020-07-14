@@ -1,4 +1,12 @@
-# Web-projects
+# The Complete 2020 Web Development Bootcamp projects
+  My solutions for challenges of [web devlopment bootcamp](https://www.appbrewery.co/p/the-complete-web-development-course) by Angela Yu on udemy platform  which covered :
+  - Html , css and bootstrap
+  - JavaScript and JQuery
+  - Node.js
+  - Express.js
+  - MongoDB
+  - React.js 
+  - ...
 
 
 ## Project one : Dice challenge 
@@ -39,3 +47,8 @@
     - cookies and sessions
     - third party oauth (google apis)
   - **Starter code** with html and css files from [appbrewery](https://drive.google.com/uc?export=download&id=1U6tcos_A2rCGuMLdR0RZsDo_KI2_pf_t)
+  
+## Project Eight : Keeper App
+  clone of google keeper app 
+  - **Objective** : practicing on (React.js)
+  - **Starter code** with html and css files from [appbrewery](https://codesandbox.io/s/keeper-part-3-starting-v3p0j)
